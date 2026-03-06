@@ -1,0 +1,62 @@
+{
+    "1": {
+    "query": "What are the changes in blood glucose levels reported across all clinical trials of GLP-1-based medications for Type 2 Diabetes conducted in the past year (2024-09-15 to 2025-09-15)?",
+    "primary_key_vals": ["NCT05659537", "NCT05706506"],
+    "primary_key": "nct_number",
+    "base_url": "https://clinicaltrials.gov/"
+    },
+    "2": {
+    "query": "For all intervention reports that have been assigned a highest evidence tier, identify the outcome domain (selecting the alphabetically first if multiple domains share the same tier) corresponding to that tier. For each report, provide its effectiveness rating, grade level, and the percentage of male participants in the study sample?",
+    "primary_key_vals": ["723", "722", "719", "714"],
+    "primary_key": "report_id",
+    "base_url": "https://ies.ed.gov/ncee/WWC/"
+    },
+    "3": {
+    "query": "For all STEM professional job related findings, what are their outcome effectiveness and findings?",
+    "primary_key_vals": ["Three essays on immigration policy and labor market outcomes in the U.S.", "Encouraging evidence on a sector-focused advancement strategy", "The impact of career mentoring and psychosocial mentoring on affective organizational commitment, job involvement, and turnover intention", "Exploring women engineering faculty’s mentoring networks", "When trying hard isn’t natural: Women’s belonging with and motivation for male-dominated STEM fields as a function of effort expenditure concerns", "Transformative graduate education programs: An analysis of impact on STEM and non-STEM Ph.D. completion"],
+    "primary_key": "Title",
+    "base_url": "https://clear.dol.gov/"
+    },
+    "4": {
+    "query": "What is the dollars, impressions, and industry for the top 3 national and local TV parent companies?",
+    "primary_key_vals": ["ABBVIE INC", "PROCTER & GAMBLE CO", "PROGRESSIVE CORP", "GENERAL MOTORS CO", "TOYOTA MOTOR CORP", "FORD MOTOR CO"],
+    "primary_key": "PARENT_COMPANY",
+    "base_url": "https://www.nielsen.com/"
+    },
+    "5": {
+    "query": "For all beef products with a start date after January 1, 2025, find the average amount of carbohydrates and the water amount of the latest sample (if multiple samples share the same latest date, choose the one whose city name is alphabetically smallest).",
+    "primary_key_vals": ["2727572", "2727574", "2727573"],
+    "primary_key": "fdc_id",
+    "base_url": "https://fdc.nal.usda.gov/"
+    },
+    "6": {
+    "query": "What is the average mortality rate for bacterial infections that are not transmitted human to human discovered after 1880?",
+    "primary_key_vals": ["Legionellosis", "Listeriosis", "Campylobacter"],
+    "primary_key": "disease_name",
+    "base_url": "https://www.who.int/news-room/fact-sheets"
+    },
+    "7": {
+    "query": "What is the highest rated movie directed by Christopher Nolan between 2010 and 2015?",
+    "primary_key_vals": ["Inception", "The Dark Knight Rises", "Man of Steel", "Transcendence","Interstellar"],
+    "primary_key": "movie_name",
+    "base_url": "https://www.imdb.com/"
+    },
+    "8": {
+    "query": "What nation funded the most atmospheric probe missions that have already been completed?",
+    "primary_key_vals": ["Galileo Jupiter Atmospheric Probe", "Huygens", "Pioneer Venus 2"],
+    "primary_key": "mission_name",
+    "base_url": "https://science.nasa.gov/science-missions/"
+    },
+    "9": {
+    "query": "What are all the bills about environmental protection that were enacted into law by the 119th Congress?",
+    "primary_key_vals": ["H.J.Res.89", "H.J.Res.88", "H.J.Res.87", "H.J.Res.61", "H.J.Res.35", "S.J.Res.31"],
+    "primary_key": "Bill",
+    "base_url": "https://www.congress.gov/"
+    },
+    "10": {
+    "query": "What are some of the economic and social indicators for the 6 countries with the lowest literacy rates in the world?",
+    "primary_key_vals": ["Chad", "Mali", "Burkina Faso", "South Sudan", "Afghanistan", "Central African Republic"],
+    "primary_key": "Country",
+    "base_url": "https://data.worldbank.org/"
+    }
+}

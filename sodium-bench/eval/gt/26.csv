@@ -1,0 +1,6 @@
+dataset,frequency,topic,department,publisher
+National Summary Data Page (NSDP),"Annual, Monthly, Quarterly","Gross domestic product (GDP), Consumer prices, Public debt, International reserves",Statistics Department (STA),International Monetary Fund (IMF)
+International liquidity (IL),"Annual, Monthly, Quarterly","External sector, International Financial Statistics (IFS), International reserves",Statistics Department (STA),International Monetary Fund (IMF)
+International Trade in Goods (ITG),"Annual, Monthly, Quarterly","International trade, International Financial Statistics (IFS)","International trade, International Financial Statistics (IFS)",International Monetary Fund (IMF)
+Production Indexes (PI),"Annual, Monthly, Quarterly","International trade, International Financial Statistics (IFS)","International trade, International Financial Statistics (IFS)",International Monetary Fund (IMF)
+GFS Statement of Operations,Annual,Fiscal sector,Statistics Department (STA),International Monetary Fund (IMF)

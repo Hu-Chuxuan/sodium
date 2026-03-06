@@ -1,0 +1,4 @@
+dataset,horizontal_coverage,horizontal_resolution,vertical_coverage,vertical_resolution,temporal_coverage,temporal_resolution
+Global bioclimatic indicators from 1950 to 2100 derived from climate projections,Global,0.5° x 0.5°,Surface,Single level,1950-2100,"Monthly, annual, and 20-year averages"
+Downscaled bioclimatic indicators for selected regions from 1950 to 2100 derived from climate projections,"Central Africa (15S-25N, 0E-35E), Europe (35N-70N, 25W-35E), Northern Brazil (12S-20S, 35W-43W)",1 km x 1 km,Surface,Single level,1950-2100,20-year average
+Global bioclimatic indicators from 1979 to 2018 derived from reanalysis,Global,0.5° x 0.5°,Surface,Single level,1979 to 2018,"Monthly, annual and 40-year average"

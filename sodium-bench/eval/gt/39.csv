@@ -1,0 +1,4 @@
+name,data_type,food_category,fdc_id,ndb_number,fdc_published,carbohydrates_average_amount,carbohydrates_unit,deriv__by,latest_fdc_sample_id,latest_acquisition_date,sample_water_amount,sample_water_unit
+"Beef, short loin (NY strip steak), raw",Foundation,Beef Products,2727572,100377,4/24/2025,0.22,g,Calculated,2727688,9/16/2024,62.54,g
+"Beef, top sirloin steak, raw",Foundation,Beef Products,2727574,100379,4/24/2025,0.22,g,Calculated,2727720,10/20/2024,68.87,g
+"Beef, tenderloin steak, raw",Foundation,Beef Products,2727573,100378,4/24/2025,0.18,g,Calculated,2727700,10/14/2024,72.99,g

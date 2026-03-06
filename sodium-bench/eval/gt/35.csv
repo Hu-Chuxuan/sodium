@@ -1,0 +1,4 @@
+impact_model,sector,region,model_version,observed_atmospheric_climate_data_sets_used,was_a_spin_up_performed_
+3PG,Forests,local,0.1.1,Historical observed climate data,No
+3PG-Hydro,Forests,local,1.1,W5E5v1.0,No
+3PGN-BW,Forests,local,-,EWEMBI,No

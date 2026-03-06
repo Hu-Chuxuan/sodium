@@ -1,0 +1,4 @@
+dataset,geography,years,data_sources,what_s_in_the_dataset_
+PRISM Climate,Census Tract,1981-2024,"PRISM Climate Data, United States Census Bureau","Daily tract-level temperature and precipitation data from 1981–2024, along with annual percentiles and extreme weather indicators to support research on environmental trends and health impacts."
+Polluting Sites,"Census Tract, ZCTA",1987-2021,EPA Toxic Release Inventory,"Locations of toxic chemical release, processing, use, and manufacture as self-reported by industries subject to EPA mandate"
+Weather,County,2003-2016,NOAA,"Days with certain types of weather by county (i.e. hot, freezing, snowy, etc)"

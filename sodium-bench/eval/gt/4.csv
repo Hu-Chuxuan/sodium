@@ -1,0 +1,4 @@
+country,round,num_households_selected,num_eligilble_women,training_location,data_analysis_software
+Kenya,3,4958,"4,452","Kericho Tea Hotel in Kericho county, Kenya",Stata® version 14 software
+Burkina Faso,3,2906,3375,ISSP headquarters at the University of Ouagadougou,Stata® version 14 software
+Uganda,3,4838,3856,"in Kampala City, at the Global Grand Hotel on the outskirts of Makerere University",Stata® version 14 software

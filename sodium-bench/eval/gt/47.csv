@@ -1,0 +1,4 @@
+dataset,__data_sources,latest_data_year,contact
+AgMIP Climate Forcing Datasets for Agricultural Modeling,NASA MERRA and MERRA-Land reanalyses; NCEP Climate Forecast System Reanalysis (CFSR); Climatic Research Unit (CRU); WM; Global Precipitation Climatology Centre (GPCC); NASA/GEWEX Solar Radiation Budget (SRB); TRMM; CMORPH; PERSIANN.,2010,Dr. Alexander Ruane
+Evolving Fragility of the Global Food System,FAOSTAT (UN Food and Agriculture Organization Statistics Division) and the United Nations National Accounts Main Aggregates Database.,2009,Dr. Michael Puma
+Global Fire Weather Database (GFWED),"MERRA-2 reanalysis for T, RH, wind speed and snow depth; GEOS-5 analyses/forecasts (for NRT versions); precipitation from MERRA-2 (raw PRECTOT) and MERRA-2 bias-corrected (PRECTOTCORR); Sheffield/Princeton precipitation; NCEP CPC gauge-based global precipitation; GPCP 1-degree-daily v1.2; TRMM 3B42; GPM IMERG (Early, Late, Final).",Present,Dr. Robert Field

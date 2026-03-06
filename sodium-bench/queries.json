@@ -1,0 +1,1302 @@
+{
+  "1": {
+    "query": "What is the average spending amount per transaction for SNAP users in 2003, 2009, 2017, and 2022?",
+    "primary_key": "year",
+    "base_url": "https://www.fns.usda.gov/",
+    "primary_key_vals": [
+      2022,
+      2017,
+      2009,
+      2003
+    ],
+    "domain": "Economics"
+  },
+  "2": {
+    "query": "According to the latest survey data with the most complete information, what are the mortality rates of these low- and middle-income countries?",
+    "primary_key_vals": [
+      "Burundi",
+      "Papua New Guinea",
+      "Sierra Leone"
+    ],
+    "primary_key": "country",
+    "base_url": "https://www.dhsprogram.com/",
+    "domain": "Demographics"
+  },
+  "3": {
+    "query": "For sub-Saharan African countries, how many Demographic and Health Surveys (DHS) were conducted since 2000, and what is the total number of women included in the latest survey, as well as the percentage of women with secondary or higher education?",
+    "primary_key_vals": [
+      "Benin",
+      "Burundi",
+      "Chad"
+    ],
+    "primary_key": "country",
+    "base_url": "https://www.dhsprogram.com/",
+    "domain": "Demographics"
+  },
+  "4": {
+    "query": "For Burkina Faso, Kenya, Uganda, and Côte d’Ivoire, retrieve information from round 3 of the Performance Monitoring for Action (PMA) survey. If round 3 is not available for a country, retrieve data from the latest available round instead.",
+    "primary_key_vals": [
+      "Kenya",
+      "Burkina Faso",
+      "Uganda",
+      "Côte d’Ivoire"
+    ],
+    "primary_key": "country",
+    "base_url": "https://www.pmadata.org/",
+    "domain": "Demographics"
+  },
+  "5": {
+    "query": "What are the household metrics of Italy from 2020 to 2024?",
+    "primary_key_vals": [
+      "Households by type (biennal average) - households without a nucleus",
+      "Households by type (biennal average) - households with a nucleus",
+      "Households by type (biennal average) - households with two or more nucleus",
+      "Household sizes (Household number of components = 1)"
+    ],
+    "primary_key": "metric",
+    "base_url": "https://esploradati.istat.it/",
+    "domain": "Demographics"
+  },
+  "6": {
+    "query": "For the Understanding Society surveys from 2020 to 2022, retrieve the corresponding survey information and available variables for each year.",
+    "primary_key_vals": [
+      2022,
+      2021,
+      2020
+    ],
+    "primary_key": "year",
+    "base_url": "https://datacatalogue.ukdataservice.ac.uk/",
+    "domain": "Demographics"
+  },
+  "7": {
+    "query": "What are the Microwave Sounder data in the FCDR satellite variable for the climate data records (CDR) product?",
+    "primary_key": "cdr",
+    "base_url": "https://www.ncei.noaa.gov/",
+    "primary_key_vals": [
+      "MSU Brightness Temperature - NOAA CDR",
+      "MW Sounder Humidity Sounding BT CDR",
+      "MW Sounder Temperature Sounding BT - NOAA CDR",
+      "MW Sounder Window Channels BT CDR"
+    ],
+    "domain": "Climate"
+  },
+  "8": {
+    "query": "What are the unemployment rates in Brazil across different time periods (i.e., quarters)?",
+    "primary_key_vals": [
+      "Jun-Jul-Aug 2025",
+      "Mar-April-May 2025",
+      "Dec-Jan-Feb 2024-25",
+      "Sept-Oct-Nov 2024",
+      "June-Jul-Aug 2024"
+    ],
+    "primary_key": "season",
+    "base_url": "https://www.ibge.gov.br/",
+    "domain": "Demographics"
+  },
+  "9": {
+    "query": "What are the latest population and labor survey data for different countries?",
+    "primary_key_vals": [
+      "Netherlands",
+      "Spain",
+      "Portugal",
+      "France",
+      "Belgium",
+      "Luxembourg"
+    ],
+    "primary_key": "Country",
+    "base_url": "https://data.worldbank.org/",
+    "domain": "Demographics"
+  },
+  "10": {
+    "query": "What are the metadata for the National Fertility Survey in Japan for the 2015 and 2021 rounds?",
+    "primary_key_vals": [
+      2021,
+      2015
+    ],
+    "primary_key": "year",
+    "base_url": "https://www.ipss.go.jp/",
+    "domain": "Demographics"
+  },
+  "11": {
+    "query": "Which women’s teams placed in the top 3 for the LIT Super Sevens Series from 2022-2024 and what are their points?",
+    "primary_key": "year",
+    "base_url": "https://www.supersevensseries.com/",
+    "primary_key_vals": [
+      2024,
+      2023,
+      2022
+    ],
+    "domain": "Sports"
+  },
+  "12": {
+    "query": "Who were the Most Valuable Player award recipients each season in the NBA from the 2010-2011 season to the 2022-2023 season?",
+    "primary_key": "season",
+    "base_url": "https://www.basketball-reference.com/",
+    "primary_key_vals": [
+      "2010-2011",
+      "2011-2012",
+      "2012-2013",
+      "2013-2014",
+      "2014-2015",
+      "2015-2016",
+      "2016-2017",
+      "2017-2018",
+      "2018-2019",
+      "2019-2020",
+      "2020-2021",
+      "2021-2022",
+      "2022-2023"
+    ],
+    "domain": "Sports"
+  },
+  "13": {
+    "query": "Who are the winners of the women’s freestyle swimming events at the last 3 World Aquatics Championships?",
+    "primary_key": "year",
+    "base_url": "https://www.worldaquatics.com/",
+    "primary_key_vals": [
+      2025,
+      2024,
+      2023
+    ],
+    "domain": "Sports"
+  },
+  "14": {
+    "query": "How many athletes competed in the last 4 winter olympic games?",
+    "primary_key": "winter_game",
+    "base_url": "https://www.olympics.com/",
+    "primary_key_vals": [
+      "BEIJING 2022",
+      "PYEONGCHANG 2018",
+      "SOCHI 2014",
+      "VANCOUVER 2010"
+    ],
+    "domain": "Sports"
+  },
+  "15": {
+    "query": "Who are the top 3 men’s scorers, attackers, blockers, servers, and diggers for the beach volleyball world championships 2025?",
+    "primary_key": "rank",
+    "base_url": "https://en.volleyballworld.com/",
+    "primary_key_vals": [
+      1,
+      2,
+      3
+    ],
+    "domain": "Sports"
+  },
+  "16": {
+    "query": "Which countries placed in Equestrian Jumping- Individual Mixed in the prior 4 summer olympics starting from 2016?",
+    "primary_key": "game",
+    "base_url": "https://www.olympics.com/",
+    "primary_key_vals": [
+      "Rio 2016",
+      "London 2012",
+      "Beijing 2008",
+      "Athens 2004"
+    ],
+    "domain": "Sports"
+  },
+  "17": {
+    "query": "What are the records in England for men’s freestyle swimming?",
+    "primary_key": "distance__m_",
+    "base_url": "https://www.swimcloud.com/",
+    "primary_key_vals": [
+      50,
+      100,
+      200,
+      400,
+      800,
+      1500
+    ],
+    "domain": "Sports"
+  },
+  "18": {
+    "query": "Of all cities, what are the cities that have top 3 highest change in HPI over the past year (2025 Q3)?",
+    "primary_key": "rank",
+    "base_url": "https://www.fhfa.gov/",
+    "primary_key_vals": [
+      1,
+      2,
+      3
+    ],
+    "domain": "Sports"
+  },
+  "19": {
+    "query": "What are some key statistics about finance companies’ owned and managed receivables outstanding in the years 2009, 2014, 2019, and 2024? These statistics are released in the late NEXT year.",
+    "primary_key": "year",
+    "base_url": "https://www.federalreserve.gov/",
+    "primary_key_vals": [
+      2024,
+      2019,
+      2014,
+      2009
+    ],
+    "domain": "Finance"
+  },
+  "20": {
+    "query": "What are the most number of watchers in every monday of October 2025?",
+    "primary_key": "date",
+    "base_url": "https://stocktwits.com/",
+    "primary_key_vals": [
+      "10-06-2025",
+      "10-13-2025",
+      "10-20-2025",
+      "10-27-2025"
+    ],
+    "domain": "Finance"
+  },
+  "21": {
+    "query": "What is the metadata for Sweden’s “structure business statistics” reports from 2015-2022?",
+    "primary_key": "year",
+    "base_url": "https://www.scb.se/en/",
+    "primary_key_vals": [
+      2022,
+      2020,
+      2018,
+      2015
+    ],
+    "domain": "Finance"
+  },
+  "22": {
+    "query": "What is the total large bank consumer credit card balance (in billions of dollars) from Q3 2024 to Q2 2025 according to the banking category data?",
+    "primary_key": "timeframe",
+    "base_url": "https://fred.stlouisfed.org/",
+    "primary_key_vals": [
+      "Q2 2025",
+      "Q1 2025",
+      "Q4 2024",
+      "Q3 2024"
+    ],
+    "domain": "Finance"
+  },
+  "23": {
+    "query": "What are the contents discussed in the FDIC annual risk reviews from 2019-2025?",
+    "primary_key": "year",
+    "base_url": "https://www.fdic.gov/",
+    "primary_key_vals": [
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2019
+    ],
+    "domain": "Finance"
+  },
+  "24": {
+    "query": "What are the metadata for the HRS Core report data?",
+    "primary_key": "year",
+    "base_url": "https://hrsdata.isr.umich.edu/",
+    "primary_key_vals": [
+      2022,
+      2020,
+      2018,
+      2016,
+      2014
+    ],
+    "domain": "Finance"
+  },
+  "25": {
+    "query": "How many static and dynamic datasets were published each year under the Home Mortgage Disclosure Act?",
+    "primary_key": "year",
+    "base_url": "https://ffiec.cfpb.gov/",
+    "primary_key_vals": [
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+    ],
+    "domain": "Finance"
+  },
+  "26": {
+    "query": "What are the metadata for the datasets?",
+    "primary_key": "dataset",
+    "base_url": "https://data.imf.org/",
+    "primary_key_vals": [
+      "National Summary Data Page (NSDP)",
+      "International liquidity (IL)",
+      "International Trade in Goods (ITG)",
+      "Production Indexes (PI)",
+      "GFS Statement of Operations"
+    ],
+    "domain": "Finance"
+  },
+  "27": {
+    "query": "What is the average temperature and total precipitation in the United States in each of the first 4 months of 2025 according to monitoring data?",
+    "primary_key": "month",
+    "base_url": "https://www.ncei.noaa.gov/",
+    "primary_key_vals": [
+      "January",
+      "Feburary",
+      "March",
+      "April"
+    ],
+    "domain": "Finance"
+  },
+  "28": {
+    "query": "What are the metadata for the datasets?",
+    "primary_key": "dataset",
+    "base_url": "https://nanda.isr.umich.edu/",
+    "primary_key_vals": [
+      "PRISM Climate",
+      "Polluting Sites",
+      "Weather"
+    ],
+    "domain": "Finance"
+  },
+  "29": {
+    "query": "What was the world population and number of births / deaths for 2022-2025?",
+    "primary_key": "year",
+    "base_url": "https://www.census.gov/",
+    "primary_key_vals": [
+      2025,
+      2024,
+      2023,
+      2022
+    ],
+    "domain": "Economics"
+  },
+  "30": {
+    "query": "What are the statistics of state expenditures from 2020-2024 according to state expenditure reports?",
+    "primary_key": "year",
+    "base_url": "https://www.nasbo.org/",
+    "primary_key_vals": [
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+    ],
+    "domain": "Economics"
+  },
+  "31": {
+    "query": "What have been the benefits of the Low Income Home Energy Assistance Program (LIHEAP) for the first quarters of the last 3 years?",
+    "primary_key": "year",
+    "base_url": "https://liheap-fy25-data-dashboard-hhs-acf.hub.arcgis.com/",
+    "primary_key_vals": [
+      2025,
+      2024,
+      2023
+    ],
+    "domain": "Economics"
+  },
+  "32": {
+    "query": "What is the number of transactions made with SNAP per household in 2003, 2009, 2017, and 2022? Each year has its own webpage.",
+    "primary_key": "year",
+    "base_url": "https://www.fns.usda.gov/",
+    "primary_key_vals": [
+      2022,
+      2017,
+      2009,
+      2003
+    ],
+    "domain": "Economics"
+  },
+  "33": {
+    "query": "What is some of the metadata for the Freedom of Information Act Annual Reports?",
+    "primary_key": "year",
+    "base_url": "https://www.fcc.gov/",
+    "primary_key_vals": [
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+    ],
+    "domain": "Economics"
+  },
+  "34": {
+    "query": "For each country that has programs involving agricultural research and improvement, what are the sponsors for each partner's program?",
+    "primary_key": "country",
+    "base_url": "https://www.ifpri.org/",
+    "primary_key_vals": [
+      "China",
+      "Egypt",
+      "Ethiopia",
+      "Bangeladesh"
+    ],
+    "domain": "Food"
+  },
+  "35": {
+    "query": "What are some of the metadata for the impact models in the Inter-Sectoral Impact Model Intercomparison Project (ISIMIP)?",
+    "primary_key": "impact_model",
+    "base_url": "https://www.isimip.org/",
+    "primary_key_vals": [
+      "3PG",
+      "3PG-Hydro",
+      "3PGN-BW"
+    ],
+    "domain": "Food"
+  },
+  "36": {
+    "query": "From the earth stat datasets: Cropland and Pasture Area in 2000, Harvested Area and Yield for 175 Crops year 2000, Greenhouse Gas Emissions From Croplands, and Climate Variation Effects on Crop Yields for Maize, Soybean, Rice, and Wheat, what are the resolution methods used for solving the environmental impact caused by agriculture?",
+    "primary_key": "dataset_name",
+    "base_url": "http://www.earthstat.org/",
+    "primary_key_vals": [
+      "Cropland and Pasture Area in 2000",
+      "Harvested Area and Yield for 175 Crops year 2000",
+      "Greenhouse Gas Emissions From Croplands",
+      "Climate Variation Effects on Crop Yields for Maize, Soybean, Rice, and Wheat"
+    ],
+    "domain": "Food"
+  },
+  "37": {
+    "query": "What are the different stages of the research “Evaluation of change in dietary methodology in NDNS rolling programme” from the UK government?",
+    "primary_key": "stage",
+    "base_url": "https://www.gov.uk/",
+    "primary_key_vals": [
+      1,
+      2,
+      3
+    ],
+    "domain": "Food"
+  },
+  "38": {
+    "query": "For different commodities, what are the areas with the most productions in the world in 2024/2025?",
+    "primary_key": "rank",
+    "base_url": "https://www.fas.usda.gov/",
+    "primary_key_vals": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "domain": "Food"
+  },
+  "39": {
+    "query": "What are the FoodData Central details per 100g for these beef products ad foundation foods?",
+    "primary_key": "name",
+    "base_url": "https://fdc.nal.usda.gov/",
+    "primary_key_vals": [
+      "Beef, short loin (NY strip steak), raw",
+      "Beef, top sirloin steak, raw",
+      "Beef, tenderloin steak, raw"
+    ],
+    "domain": "Food"
+  },
+  "40": {
+    "query": "Of the datasets in the Gravity database, what are the reference documents for each database?",
+    "primary_key": "dataset",
+    "base_url": "https://www.cepii.fr/",
+    "primary_key_vals": [
+      "Gravity",
+      "Language",
+      "TradeProd"
+    ],
+    "domain": "Food"
+  },
+  "41": {
+    "query": "What are some of the metadata for the Global Spatially-Disaggregated Crop Production Statistics since 2000?",
+    "primary_key": "year",
+    "base_url": "https://www.mapspam.info/",
+    "primary_key_vals": [
+      2020,
+      2010,
+      2005,
+      2000
+    ],
+    "domain": "Food"
+  },
+  "42": {
+    "query": "What are the paleoclimate data catalogs in Earthdata published before 2000?",
+    "primary_key": "dataset",
+    "base_url": "https://www.earthdata.nasa.gov/",
+    "primary_key_vals": [
+      "Paleo-periglacial phenomena in Northwestern Europe, Version 1",
+      "Rock glaciers, Western Andes, Chile, Version 1",
+      "Rock glaciers, Prealps, Vaud, Switzerland, Version 1",
+      "ABLE-3B Electra In-Situ Trace Gas Data",
+      "STRAT ER-2 Aircraft In-situ Trace Gas Data"
+    ],
+    "domain": "Food"
+  },
+  "43": {
+    "query": "What are the latest documents, coordinates, and property areas for New Zealand’s UNESCO World Heritage sites?",
+    "primary_key": "name",
+    "base_url": "https://whc.unesco.org/",
+    "primary_key_vals": [
+      "Te Wahipounamu – South West New Zealand",
+      "Tongariro National Park",
+      "New Zealand Sub-Antarctic Islands"
+    ],
+    "domain": "Climate"
+  },
+  "44": {
+    "query": "For the SMAP platform L1A Radar Receive Only in the ASF DAAC center, what is the spatial extent of the most recent datasets (highest version)?",
+    "primary_key": "dataset",
+    "base_url": "https://www.earthdata.nasa.gov/",
+    "primary_key_vals": [
+      "SMAP_L1A_RADAR_RECEIVE_ONLY_QA_V003",
+      "SMAP_L1A_RADAR_RECEIVE_ONLY_METADATA_V003",
+      "SMAP_L1A_RADAR_RECEIVE_ONLY_V003"
+    ],
+    "domain": "Climate"
+  },
+  "45": {
+    "query": "What are the parameters, geographical coverages, and number of data for all NSIDC data collections using airborne measurements from Antarctica?",
+    "primary_key": "data",
+    "base_url": "https://nsidc.org/",
+    "primary_key_vals": [
+      "LVIS: NASA Land, Vegetation and Ice Sensor Facility",
+      "Operation IceBridge",
+      "Soil Moisture Active Passive Data (SMAP)"
+    ],
+    "domain": "Climate"
+  },
+  "46": {
+    "query": "What are the datasets that have climate indices and reside in the biodiversity sector?",
+    "primary_key": "dataset",
+    "base_url": "https://cds.climate.copernicus.eu/",
+    "primary_key_vals": [
+      "Global bioclimatic indicators from 1950 to 2100 derived from climate projections",
+      "Downscaled bioclimatic indicators for selected regions from 1950 to 2100 derived from climate projections",
+      "Global bioclimatic indicators from 1979 to 2018 derived from reanalysis"
+    ],
+    "domain": "Climate"
+  },
+  "47": {
+    "query": "What are the data sources and contacts for the NASA climate impact studies?",
+    "primary_key": "dataset",
+    "base_url": "https://data.giss.nasa.gov/",
+    "primary_key_vals": [
+      "AgMIP Climate Forcing Datasets for Agricultural Modeling",
+      "Evolving Fragility of the Global Food System",
+      "Global Fire Weather Database (GFWED)"
+    ],
+    "domain": "Climate"
+  },
+  "48": {
+    "query": "What are all the precipitation datasets in NOAA’s Gridded Climate Data?",
+    "primary_key": "dataset",
+    "base_url": "https://psl.noaa.gov/",
+    "primary_key_vals": [
+      "CPC Unified Gauge-Based Analysis of Daily Precipitation over CONUS",
+      "Global Precipitation Climatology Project (GPCP) Monthly Analysis Product",
+      "NOAAs Precipitation Reconstruction over Land (PREC-L)",
+      "University of Delaware Terrestrial Precipitation"
+    ],
+    "domain": "Climate"
+  },
+  "49": {
+    "query": "What are the AVHRR/VIIRS variables for the climate data records (CDR) product?",
+    "primary_key": "cdr",
+    "base_url": "https://www.ncei.noaa.gov/",
+    "primary_key_vals": [
+      "AVHRR Radiances - NASA CDR",
+      "PATMOS-x FCDR",
+      "Polar Pathfinder FCDR"
+    ],
+    "domain": "Climate"
+  },
+  "50": {
+    "query": "What are the interview dates for the reports in 2021-2023?",
+    "primary_key": "year",
+    "base_url": "https://ai.meta.com/ai-for-good/",
+    "primary_key_vals": [
+      2023,
+      2022,
+      2021
+    ],
+    "domain": "Climate"
+  },
+  "51": {
+    "query": "Which men’s teams placed in the top 3 for the LIT Super Sevens Series from 2022-2024 and what are their points?",
+    "primary_key": "year",
+    "base_url": "https://www.supersevensseries.com/",
+    "primary_key_vals": [
+      2024,
+      2023,
+      2022
+    ],
+    "domain": "Sports"
+  },
+  "52": {
+    "query": "What were the venues for the 1st, 2nd, and 3rd rounds of the LIT Super Sevens Series from 2023-2025?",
+    "primary_key": "year",
+    "base_url": "https://www.supersevensseries.com/",
+    "primary_key_vals": [
+      2025,
+      2024,
+      2023
+    ],
+    "domain": "Sports"
+  },
+  "53": {
+    "query": "Who were the Rookie of The Year award recipients each season in the NBA from the 2010-2011 season to the 2022-2023 season?",
+    "primary_key": "season",
+    "base_url": "https://www.basketball-reference.com/",
+    "primary_key_vals": [
+      "2010-2011",
+      "2011-2012",
+      "2012-2013",
+      "2013-2014",
+      "2014-2015",
+      "2015-2016",
+      "2016-2017",
+      "2017-2018",
+      "2018-2019",
+      "2019-2020",
+      "2020-2021",
+      "2021-2022",
+      "2022-2023"
+    ],
+    "domain": "Sports"
+  },
+  "54": {
+    "query": "Who were the players that had the most points per game each season in the NBA from the 2010-2011 season to the 2022-2023 season?",
+    "primary_key": "season",
+    "base_url": "https://www.basketball-reference.com/",
+    "primary_key_vals": [
+      "2010-2011",
+      "2011-2012",
+      "2012-2013",
+      "2013-2014",
+      "2014-2015",
+      "2015-2016",
+      "2016-2017",
+      "2017-2018",
+      "2018-2019",
+      "2019-2020",
+      "2020-2021",
+      "2021-2022",
+      "2022-2023"
+    ],
+    "domain": "Sports"
+  },
+  "55": {
+    "query": "Who were the players that had the most rebounds per game each season in the NBA from the 2010-2011 season to the 2022-2023 season?",
+    "primary_key": "season",
+    "base_url": "https://www.basketball-reference.com/",
+    "primary_key_vals": [
+      "2010-2011",
+      "2011-2012",
+      "2012-2013",
+      "2013-2014",
+      "2014-2015",
+      "2015-2016",
+      "2016-2017",
+      "2017-2018",
+      "2018-2019",
+      "2019-2020",
+      "2020-2021",
+      "2021-2022",
+      "2022-2023"
+    ],
+    "domain": "Sports"
+  },
+  "56": {
+    "query": "Who were the players that had the most assists per game each season in the NBA from the 2010-2011 season to the 2022-2023 season?",
+    "primary_key": "season",
+    "base_url": "https://www.basketball-reference.com/",
+    "primary_key_vals": [
+      "2010-2011",
+      "2011-2012",
+      "2012-2013",
+      "2013-2014",
+      "2014-2015",
+      "2015-2016",
+      "2016-2017",
+      "2017-2018",
+      "2018-2019",
+      "2019-2020",
+      "2020-2021",
+      "2021-2022",
+      "2022-2023"
+    ],
+    "domain": "Sports"
+  },
+  "57": {
+    "query": "Who are the winners of the men’s freestyle swimming events at the last 4 World Aquatics Championships?",
+    "primary_key": "year",
+    "base_url": "https://www.worldaquatics.com/",
+    "primary_key_vals": [
+      2025,
+      2024,
+      2023,
+      2022
+    ],
+    "domain": "Sports"
+  },
+  "58": {
+    "query": "Who are the winners of the women’s solo diving events at the last 4 World Aquatics Championships?",
+    "primary_key": "year",
+    "base_url": "https://www.worldaquatics.com/",
+    "primary_key_vals": [
+      2025,
+      2024,
+      2023,
+      2022
+    ],
+    "domain": "Sports"
+  },
+  "59": {
+    "query": "Who are the winners of the men’s solo diving events at the last 4 World Aquatics Championships?",
+    "primary_key": "year",
+    "base_url": "https://www.worldaquatics.com/",
+    "primary_key_vals": [
+      2025,
+      2024,
+      2023,
+      2022
+    ],
+    "domain": "Sports"
+  },
+  "60": {
+    "query": "Who were the medalists for men’s and women’s water polo at the last 4 World Aquatics Championships?",
+    "primary_key": "year",
+    "base_url": "https://www.worldaquatics.com/",
+    "primary_key_vals": [
+      2025,
+      2024,
+      2023,
+      2022
+    ],
+    "domain": "Sports"
+  },
+  "61": {
+    "query": "How many athletes competed in the last 4 summer olympic games?",
+    "primary_key": "summer_game",
+    "base_url": "https://www.olympics.com/",
+    "primary_key_vals": [
+      "PARIS 2024",
+      "TOKYO 2020",
+      "RIO 2016",
+      "LONDON 2012"
+    ],
+    "domain": "Sports"
+  },
+  "62": {
+    "query": "How many athletes competed in the last 4 olympic games (summer or winter)?",
+    "primary_key": "game",
+    "base_url": "https://www.olympics.com/",
+    "primary_key_vals": [
+      "PARIS 2024",
+      "BEIJING 2022",
+      "TOKYO 2020",
+      "PYEONGCHANG 2018"
+    ],
+    "domain": "Sports"
+  },
+  "63": {
+    "query": "Who are the top 3 women’s scorers, attackers, blockers, servers, and diggers for the beach volleyball world championships 2025?",
+    "primary_key": "rank",
+    "base_url": "https://en.volleyballworld.com/",
+    "primary_key_vals": [
+      1,
+      2,
+      3
+    ],
+    "domain": "Sports"
+  },
+  "64": {
+    "query": "Who are the top 5 men’s scorers, attackers, blockers, servers, and diggers for the beach volleyball world championships 2023?",
+    "primary_key": "rank",
+    "base_url": "https://en.volleyballworld.com/",
+    "primary_key_vals": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "domain": "Sports"
+  },
+  "65": {
+    "query": "Who are the top 5 women’s scorers, attackers, blockers, servers, and diggers for the beach volleyball world championships 2023?",
+    "primary_key": "rank",
+    "base_url": "https://en.volleyballworld.com/",
+    "primary_key_vals": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "domain": "Sports"
+  },
+  "66": {
+    "query": "Which countries placed in Basketball- Basketball Men in the prior 4 summer olympics starting from 2016?",
+    "primary_key": "game",
+    "base_url": "https://www.olympics.com/",
+    "primary_key_vals": [
+      "Rio 2016",
+      "London 2012",
+      "Beijing 2008",
+      "Athens 2004"
+    ],
+    "domain": "Sports"
+  },
+  "67": {
+    "query": "Which countries placed in Equestrian Eventing- Individual Mixed in the prior 4 summer olympics starting from 2016?",
+    "primary_key": "game",
+    "base_url": "https://www.olympics.com/",
+    "primary_key_vals": [
+      "Rio 2016",
+      "London 2012",
+      "Beijing 2008",
+      "Athens 2004"
+    ],
+    "domain": "Sports"
+  },
+  "68": {
+    "query": "Which countries placed in Equestrian Dressage- Dressage Individual Grand Prix Mixed in the prior 4 summer olympics starting from 2016?",
+    "primary_key": "game",
+    "base_url": "https://www.olympics.com/",
+    "primary_key_vals": [
+      "Rio 2016",
+      "London 2012",
+      "Beijing 2008",
+      "Athens 2004"
+    ],
+    "domain": "Sports"
+  },
+  "69": {
+    "query": "Which countries placed in Basketball- Basketball Women in the prior 4 summer olympics starting from 2016?",
+    "primary_key": "game",
+    "base_url": "https://www.olympics.com/",
+    "primary_key_vals": [
+      "Rio 2016",
+      "London 2012",
+      "Beijing 2008",
+      "Athens 2004"
+    ],
+    "domain": "Sports"
+  },
+  "70": {
+    "query": "What are the records in England for women’s freestyle swimming?",
+    "primary_key": "distance__m_",
+    "base_url": "https://www.swimcloud.com/",
+    "primary_key_vals": [
+      50,
+      100,
+      200,
+      400,
+      800,
+      1500
+    ],
+    "domain": "Sports"
+  },
+  "71": {
+    "query": "What are some key statistics about finance companies’ new car loans in the years 2014, 2019, and 2024? These statistics are released in the late NEXT year.",
+    "primary_key": "year",
+    "base_url": "https://www.federalreserve.gov/",
+    "primary_key_vals": [
+      2024,
+      2019,
+      2014
+    ],
+    "domain": "Sports"
+  },
+  "72": {
+    "query": "What are some key statistics about finance companies’ used car loans in the years 2014, 2019, and 2024? These statistics are released in the late NEXT year.",
+    "primary_key": "year",
+    "base_url": "https://www.federalreserve.gov/",
+    "primary_key_vals": [
+      2024,
+      2019,
+      2014
+    ],
+    "domain": "Sports"
+  },
+  "73": {
+    "query": "What are some key statistics about finance companies’ owned and managed receivables outstanding for each category in the years 2014, 2019, and 2024? These statistics are released in the late NEXT year.",
+    "primary_key": "year",
+    "base_url": "https://www.federalreserve.gov/",
+    "primary_key_vals": [
+      2024,
+      2019,
+      2014
+    ],
+    "domain": "Finance"
+  },
+  "74": {
+    "query": "What is the metadata for Sweden’s “farm economics survey” from 2014-2018, being part of the agricultural survey series?",
+    "primary_key": "year",
+    "base_url": "https://www.scb.se/en/",
+    "primary_key_vals": [
+      2018,
+      2017,
+      2016,
+      2015,
+      2014
+    ],
+    "domain": "Finance"
+  },
+  "75": {
+    "query": "What is the metadata for Sweden’s “production of commodities and industrial services” report from 2017-2021, being part of the business production series?",
+    "primary_key": "year",
+    "base_url": "https://www.scb.se/en/",
+    "primary_key_vals": [
+      2021,
+      2020,
+      2019,
+      2018,
+      2017
+    ],
+    "domain": "Finance"
+  },
+  "76": {
+    "query": "What is the total large bank consumer credit card balance (in billions of dollars) from Q3 2023 to Q2 2024 according to the banking category data??",
+    "primary_key": "timeframe",
+    "base_url": "https://fred.stlouisfed.org/",
+    "primary_key_vals": [
+      "Q1 2024",
+      "Q4 2023",
+      "Q3 2023"
+    ],
+    "domain": "Finance"
+  },
+  "77": {
+    "query": "What is the total large bank consumer credit card balance (in billions of dollars) from Q3 2022 to Q2 2023 according to the banking category data??",
+    "primary_key": "timeframe",
+    "base_url": "https://fred.stlouisfed.org/",
+    "primary_key_vals": [
+      "Q1 2023",
+      "Q4 2022",
+      "Q3 2022"
+    ],
+    "domain": "Finance"
+  },
+  "78": {
+    "query": "What is the total large bank consumer credit card balance (in billions of dollars) from Q3 2021 to Q2 2022 according to the banking category data??",
+    "primary_key": "timeframe",
+    "base_url": "https://fred.stlouisfed.org/",
+    "primary_key_vals": [
+      "Q2 2022",
+      "Q1 2022",
+      "Q4 2021",
+      "Q3 2021"
+    ],
+    "domain": "Finance"
+  },
+  "79": {
+    "query": "What is the total large bank consumer credit card balance (in billions of dollars) from Q3 2020 to Q2 2021 according to the banking category data??",
+    "primary_key": "timeframe",
+    "base_url": "https://fred.stlouisfed.org/",
+    "primary_key_vals": [
+      "Q2 2021",
+      "Q1 2021",
+      "Q4 2020",
+      "Q3 2020"
+    ],
+    "domain": "Finance"
+  },
+  "80": {
+    "query": "What is the average temperature and total precipitation in the United States in each of the first 6 months of 2024 according to monitoring data?",
+    "primary_key": "month",
+    "base_url": "https://www.ncei.noaa.gov/",
+    "primary_key_vals": [
+      "January",
+      "Feburary",
+      "March",
+      "April",
+      "May",
+      "June"
+    ],
+    "domain": "Finance"
+  },
+  "81": {
+    "query": "What is the average temperature and total precipitation in the United States in each of the first 6 months of 2023 according to monitoring data?",
+    "primary_key": "month",
+    "base_url": "https://www.ncei.noaa.gov/",
+    "primary_key_vals": [
+      "January",
+      "Feburary",
+      "March",
+      "April",
+      "May",
+      "June"
+    ],
+    "domain": "Finance"
+  },
+  "82": {
+    "query": "How many wildfires burned through how many acres in the United States in each of the first 6 months of 2025 according to monitoring data?",
+    "primary_key": "month",
+    "base_url": "https://www.ncei.noaa.gov/",
+    "primary_key_vals": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June"
+    ],
+    "domain": "Finance"
+  },
+  "83": {
+    "query": "How many wildfires burned through how many acres in the United States in each of the first 6 months of 2024 according to monitoring data?",
+    "primary_key": "month",
+    "base_url": "https://www.ncei.noaa.gov/",
+    "primary_key_vals": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June"
+    ],
+    "domain": "Finance"
+  },
+  "84": {
+    "query": "What have been the benefits of the Low Income Home Energy Assistance Program (LIHEAP) for the second quarters of the last 3 years?",
+    "primary_key": "year",
+    "base_url": "https://liheap-fy25-data-dashboard-hhs-acf.hub.arcgis.com/",
+    "primary_key_vals": [
+      2025,
+      2024,
+      2023
+    ],
+    "domain": "Economics"
+  },
+  "85": {
+    "query": "What have been the benefits of the Low Income Home Energy Assistance Program (LIHEAP) for the third quarters of the last 3 years?",
+    "primary_key": "year",
+    "base_url": "https://liheap-fy25-data-dashboard-hhs-acf.hub.arcgis.com/",
+    "primary_key_vals": [
+      2025,
+      2024,
+      2023
+    ],
+    "domain": "Economics"
+  },
+  "86": {
+    "query": "What have been the benefits of the Low Income Home Energy Assistance Program (LIHEAP) for the fourth quarters of the last 3 years?",
+    "primary_key": "year",
+    "base_url": "https://liheap-fy24-data-dashboard-hhs-acf.hub.arcgis.com/",
+    "primary_key_vals": [
+      2024,
+      2023,
+      2022
+    ],
+    "domain": "Economics"
+  },
+  "87": {
+    "query": "What are the most number of volumes in every monday of October 2025?",
+    "primary_key": "date",
+    "base_url": "https://stocktwits.com/",
+    "primary_key_vals": [
+      "10-06-2025",
+      "10-13-2025",
+      "10-20-2025",
+      "10-27-2025"
+    ],
+    "domain": "Finance"
+  },
+  "88": {
+    "query": "What percentage of households redeemed their SNAP benefits by the end of the benefit month in 2003, 2009, 2017, and 2002?",
+    "primary_key": "year",
+    "base_url": "https://www.fns.usda.gov/",
+    "primary_key_vals": [
+      2022,
+      2017,
+      2009,
+      2003
+    ],
+    "domain": "Economics"
+  },
+  "89": {
+    "query": "What category accounted for the highest number of transactions and percentage of benefits redeemed for SNAP users in 2003, 2009, 2017, and 2002?",
+    "primary_key": "year",
+    "base_url": "https://www.fns.usda.gov/",
+    "primary_key_vals": [
+      2022,
+      2017,
+      2009,
+      2003
+    ],
+    "domain": "Economics"
+  },
+  "90": {
+    "query": "What percentage of households did not redeem their SNAP benefits for at least one month in 2003, 2009, 2017, and 2002?",
+    "primary_key": "year",
+    "base_url": "https://www.fns.usda.gov/",
+    "primary_key_vals": [
+      2022,
+      2017,
+      2009,
+      2003
+    ],
+    "domain": "Economics"
+  },
+  "91": {
+    "query": "What are the number of “areas” (countries + territories) represented for the reports in 2021-2023?",
+    "primary_key": "year",
+    "base_url": "https://ai.meta.com/ai-for-good/",
+    "primary_key_vals": [
+      2023,
+      2022,
+      2021
+    ],
+    "domain": "Climate"
+  },
+  "92": {
+    "query": "From the earth stat datasets: Yield Trends and Changes for Maize, Soybean, Rice, and Wheat, Water Depletion and WaterGap3 Basins, Yield Gaps and Climate Bins for Major Crops, Nutrient Application for Major Crops, what are the resolution methods used for solving the environmental impact caused by agriculture?",
+    "primary_key": "dataset_name",
+    "base_url": "http://www.earthstat.org/",
+    "primary_key_vals": [
+      "Yield Trends and Changes for Maize, Soybean, Rice, and Wheat",
+      "Water Depletion and WaterGap3 Basins",
+      "Yield Gaps and Climate Bins for Major Crops",
+      "Nutrient Application for Major Crops"
+    ],
+    "domain": "Food"
+  },
+  "93": {
+    "query": "From the earth stat datasets: Total Nutrient Balance for 140 Crops, Carbon Stocks in Potential Natural Vegetation, Crop Allocation to Food, Feed, Nonfood Harvested Area and Yield for 4 Crops (1995-2005), what are the resolution methods used for solving the environmental impact caused by agriculture?",
+    "primary_key": "dataset_name",
+    "base_url": "http://www.earthstat.org/",
+    "primary_key_vals": [
+      "Total Nutrient Balance for 140 Crops",
+      "Carbon Stocks in Potential Natural Vegetation",
+      "Crop Allocation to Food, Feed, Nonfood",
+      "Harvested Area and Yield for 4 Crops (1995-2005)"
+    ],
+    "domain": "Food"
+  },
+  "94": {
+    "query": "What are the parameters, geographical coverages, and number of data for all NSIDC data collections using ground-based measurements in North America?",
+    "primary_key": "data",
+    "base_url": "https://nsidc.org/",
+    "primary_key_vals": [
+      "AMSR-E",
+      "Cold Land Processes Field Experiment (CLPX)",
+      "NASA SnowEx",
+      "Soil Moisture Active Passive Data (SMAP)"
+    ],
+    "domain": "Climate"
+  },
+  "95": {
+    "query": "What are the parameters, geographical coverages, and number of data for all NSIDC data collections using satellite measurements of ice sheets in Antarctica?",
+    "primary_key": "data",
+    "base_url": "https://nsidc.org/",
+    "primary_key_vals": [
+      "GLIMS: Global Land Ice Measurements from Space",
+      "ICESat-2",
+      "ICESat-GLAS",
+      "MEaSUREs"
+    ],
+    "domain": "Climate"
+  },
+  "96": {
+    "query": "What are the latest documents, dates of inscription, and property areas for Belarus’s UNESCO World Heritage sites?",
+    "primary_key": "name",
+    "base_url": "https://whc.unesco.org/",
+    "primary_key_vals": [
+      "Białowieża Forest",
+      "Mir Castle Complex",
+      "Architectural, Residential and Cultural Complex of the Radziwill Family at Nesvizh",
+      "Struve Geodetic Arc"
+    ],
+    "domain": "Climate"
+  },
+  "97": {
+    "query": "For different commodities, what are the areas with the most productions in the world in 2024/2025?",
+    "primary_key": "rank",
+    "base_url": "https://www.fas.usda.gov/",
+    "primary_key_vals": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "domain": "Food"
+  },
+  "98": {
+    "query": "For different commodities, what are the areas with the most productions in the world in 2024/2025?",
+    "primary_key": "rank",
+    "base_url": "https://www.fas.usda.gov/",
+    "primary_key_vals": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "domain": "Food"
+  },
+  "99": {
+    "query": "For different commodities, what are the areas with the most productions in the world in 2024/2025?",
+    "primary_key": "rank",
+    "base_url": "https://www.fas.usda.gov/",
+    "primary_key_vals": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "domain": "Food"
+  },
+  "100": {
+    "query": "What are the FoodData Central details per 100g for these beef products ad foundation foods?",
+    "primary_key": "name",
+    "base_url": "https://fdc.nal.usda.gov/",
+    "primary_key_vals": [
+      "Beef, short loin (NY strip steak), raw",
+      "Beef, top sirloin steak, raw",
+      "Beef, tenderloin steak, raw"
+    ],
+    "domain": "Food"
+  },
+  "101": {
+    "query": "What are the FoodData Central details per 100g for these beef products ad foundation foods?",
+    "primary_key": "name",
+    "base_url": "https://fdc.nal.usda.gov/",
+    "primary_key_vals": [
+      "Beef, short loin (NY strip steak), raw",
+      "Beef, top sirloin steak, raw",
+      "Beef, tenderloin steak, raw"
+    ],
+    "domain": "Food"
+  },
+  "102": {
+    "query": "Of the datasets in the International trade database, what are the reference documents for each database?",
+    "primary_key": "dataset",
+    "base_url": "https://www.cepii.fr/",
+    "primary_key_vals": [
+      "AVEs-Services",
+      "BACI",
+      "MAcMap-HS6",
+      "Product Level Trade Elasticities",
+      "Trade Unit Values",
+      "Trade-Volume",
+      "TRADHIST"
+    ],
+    "domain": "Food"
+  },
+  "103": {
+    "query": "Of the datasets in the Indicators database, what are the reference documents for each database?",
+    "primary_key": "dataset",
+    "base_url": "https://www.cepii.fr/",
+    "primary_key_vals": [
+      "GeoDep",
+      "World Trade Flows Characterization"
+    ],
+    "domain": "Food"
+  },
+  "104": {
+    "query": "Of the datasets in the Macroeconomics database, what are the reference documents for each database?",
+    "primary_key": "dataset",
+    "base_url": "https://www.cepii.fr/",
+    "primary_key_vals": [
+      "EconMap",
+      "EQCHANGE",
+      "Institutional Profiles",
+      "RPROD"
+    ],
+    "domain": "Food"
+  },
+  "105": {
+    "query": "What are the latest documents, dates of inscription, and property areas for Albania’s UNESCO World Heritage sites?",
+    "primary_key": "name",
+    "base_url": "https://whc.unesco.org/",
+    "primary_key_vals": [
+      "Monasteries of Haghpat and Sanahin",
+      "Cathedral and Churches of Echmiatsin and the Archaeological Site of Zvartnots",
+      "Monastery of Geghard and the Upper Azat Valley"
+    ],
+    "domain": "Climate"
+  }
+}

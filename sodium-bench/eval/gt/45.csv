@@ -1,0 +1,4 @@
+data,parameters,geographic_coverage,__data_for_this_collection
+"LVIS: NASA Land, Vegetation and Ice Sensor Facility","Surface elevation, canopy height, infrared waveforms, visible imagery","Arctic, Antarctica, Greenland, Africa, North, South and Central America",20
+Operation IceBridge,"Glacier and ice sheet elevation, glacier and ice sheet topography, sea ice elevation, sea ice thickness, terrain elevation, bedrock topography, snow/ice temperature, radar imagery, visible imagery, meteorological observations, calibration data","Arctic, Antarctic, and Alaska",99
+Soil Moisture Active Passive Data (SMAP),"Antenna temperature, brightness temperature, soil moisture, freeze/thaw, surface soil moisture, gross primary production, net ecosystem carbon dioxide exchange, soil organic carbon, root zone soil moisture, surface soil moisture, soil classification, soil depth, soil porosity, soil texture, terrain elevation",Global,25

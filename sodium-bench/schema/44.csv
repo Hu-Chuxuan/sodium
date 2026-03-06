@@ -1,0 +1,4 @@
+dataset,spatial_extent,coordinate_system,granule_spatial_representation,number_of_files_granules,processing_level,published,science_keywords
+SMAP_L1A_RADAR_RECEIVE_ONLY_QA_V003,,,,,,,
+SMAP_L1A_RADAR_RECEIVE_ONLY_METADATA_V003,,,,,,,
+SMAP_L1A_RADAR_RECEIVE_ONLY_V003,,,,,,,

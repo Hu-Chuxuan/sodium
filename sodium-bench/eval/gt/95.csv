@@ -1,0 +1,5 @@
+data,parameters,geographic_coverage,__data_for_this_collection
+GLIMS: Global Land Ice Measurements from Space,"Glacier area, geometry, surface velocity, and snow line elevation",Global,8
+ICESat-2,"Land ice height, sea ice freeboard, sea ice elevation, land/water elevation data, inland water elevation, ocean elevation, calibrated backscatter profiles",Global,47
+ICESat-GLAS,"Glacier and ice sheet elevation, glacier and ice sheet topography, sea ice elevation, sea ice thickness, ice roughness, sea surface height, terrain elevation, aerosol backscatter, cloud reflectance, calibration data",Global,15
+MEaSUREs,"ice velocity, grounding lines, snow grain size, surface morphology, basin designations, ice fronts, ice shelves",Global and continental,47
