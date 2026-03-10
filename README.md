@@ -4,6 +4,22 @@ This repository contains the reproduction artifact for the VLDB 2026 March submi
 
 > **SODIUM: From Open Web Data to Queryable Databases**.
 
+## 📣 News
+
+**March 10, 2026** — We release the entire project (including SODIUM-Agent and SODIUM-Bench) as a lightweight pip-installable library. Try it in one line:
+
+```bash
+pip install tabgen-sodium
+```
+
+```python
+import sodium
+result = sodium.agent(query="...", schema=[...], base_domain="https://...", primary_key="...", primary_key_vals=[...])
+```
+
+👉 **[Interactive Demo on Google Colab](https://colab.research.google.com/drive/18Yy4clHkG9TXlZ9tyFaz_2TY0_Z2yvVV?usp=sharing)**
+
+**March 6, 2026** — Full code and data released.
 
 ## 🧐 Overview
 
